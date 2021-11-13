@@ -25,7 +25,7 @@ class HomeController < ApplicationController
     @k = array.sample
   end
 
-  def fortunee
+  def fortune
     @fortune = [
       "早餐店阿姨算你飲料免費",
       "在地上撿到 100 塊",
