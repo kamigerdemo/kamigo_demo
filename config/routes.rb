@@ -34,6 +34,8 @@ Rails.application.routes.draw do
 
   get "骰", to: "home#dice"
 
+  get "本日運勢", to: "home#fortune"
+
   # 測試用
   get "test", to: "home#test"
   get "debug", to: "home#debug"
