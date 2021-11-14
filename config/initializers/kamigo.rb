@@ -5,7 +5,7 @@ class Echo
   def process(event)
     {
       type: "text",
-      text: event.to_json
+      text: event.message
     }
   end
 end
