@@ -63,4 +63,10 @@ module FlexHelper
     end
   end
 
+  def blue_box(options = {})
+    horizontal_box **border("#00FF00").merge(options) do
+      yield if block_given?
+    end
+  end
+
 end
