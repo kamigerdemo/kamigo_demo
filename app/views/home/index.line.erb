@@ -2,10 +2,12 @@
   Kamiflex.json(self) do
     alt_text "hello world!"
     bubble do
-      body do
-        text "hello!"
-        message_button "這是一個 Message Button", "傳送的文字", style: "primary"
+      body **border("#FF0000") do
+        horizontal_box **border("#0000FF") do
+          text "Text1"
+          text "Text2"
+        end
       end
     end
-  end
+  end   
 )%>
